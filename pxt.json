@@ -1,0 +1,22 @@
+{
+    "name": "yuancheng",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "robotbit": "github:kittenbot/pxt-robotbit#v0.3.6",
+        "radio-broadcast": "*",
+        "radio": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
