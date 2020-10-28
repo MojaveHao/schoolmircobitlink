@@ -1,10 +1,9 @@
 input.onButtonPressed(Button.A, function () {
-    radio.setGroup(1)
     radio.sendString("danghter")
 })
 radio.onReceivedString(function (receivedString) {
-    if (receivedString == "danger") {
-        basic.showString("danger")
+    if (receivedString == "danghter") {
+        basic.showString("danghter")
     } else if (receivedString == "safe") {
         basic.showString("safe")
     } else {
@@ -12,6 +11,6 @@ radio.onReceivedString(function (receivedString) {
     }
 })
 input.onButtonPressed(Button.B, function () {
-    radio.setGroup(1)
     radio.sendString("safe")
 })
+radio.setGroup(1)
